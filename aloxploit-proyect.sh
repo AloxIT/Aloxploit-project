@@ -26,7 +26,6 @@ echo " "
 #service postgresql start >> /dev/null
 
 
-###me falta copiar las templates a la carpeta de www                                                                                                                               
 
 
 	# COMPROBACION DE PROGRAMAS INSTALADOS EN EL EQUIPO
@@ -107,14 +106,14 @@ if [ -f $strava ]
 then 
         echo "existe" >> /dev/null
 else
-        cp ./Templates/strava.php /var/www
+        cp ./Templates/strava.php /var/www/html
 fi
 
 if [ -f $google ]
 then    
         echo "existe" >> /dev/null
 else    
-        cp ./Templates/google.php /var/www
+        cp ./Templates/google.php /var/www/html
 fi
 
 
