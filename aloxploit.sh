@@ -71,6 +71,7 @@ echo " "
 
 /etc/init.d/mysql start >> /dev/null 2> /dev/null
 service mysql restart >> /dev/null
+chmod 777 ngrok
 
 ubic=`pwd`
 ip=`ifconfig | grep "inet" | head -1 | tr -s " " | cut -d" " -f3`
