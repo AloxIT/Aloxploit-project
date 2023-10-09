@@ -9,5 +9,8 @@ Demo version.
 
 Version de prueba.
 Los shellcodes no son aptos para Windows 10 ni para las últimas versiones de las app Android ya que son detectados por la mayoría de antivirus. Actualmente su funcionamiento es apto para sistemas desactualizados.
-La pruebas de funcionamiento de las intrusiones han sido realizadas en sistemas Windows 7 y Vista. Y con aplicaciones de Android más antiguas: Spotify 8.4
+La pruebas de funcionamiento de las intrusiones han sido realizadas en sistemas Windows 7 y Vista. Y con aplicaciones de Android más antiguas: Spotify 8.4.
 
+-IMPORTANTE-
+Para poder realizar el Phishing fuera de tu red, debes estar registrado en ngrok y haber añadido el token a la herramienta:
+"./ngrok config add-authtoken (token)"
